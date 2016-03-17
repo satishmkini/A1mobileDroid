@@ -8,6 +8,11 @@
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+	
+	<application>
+  	//your activity declarations and other stuff
+  	<meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="${HOCKEYAPP_APP_ID}" />
+	</application>
 
     <application
         android:allowBackup="true"

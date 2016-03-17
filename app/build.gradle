@@ -5,6 +5,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
+	manifestPlaceholders = [HOCKEYAPP_APP_ID: "fd7a39abc45c4131be72432123f42932"]
         applicationId "com.example.zumoappname"
         minSdkVersion 8
         targetSdkVersion 20
