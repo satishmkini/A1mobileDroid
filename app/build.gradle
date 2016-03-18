@@ -5,12 +5,12 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-	manifestPlaceholders = [HOCKEYAPP_APP_ID: "fd7a39abc45c4131be72432123f42932"]
-        applicationId "com.example.zumoappname"
+	        applicationId "com.example.zumoappname"
         minSdkVersion 8
         targetSdkVersion 20
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders = [HOCKEYAPP_APP_ID: "fd7a39abc45c4131be72432123f42932" HOCKEYAPP_APP_SECRET: f2a75c552a8709c95cc8af2dee15ed4c]
     }
     buildTypes {
         release {
@@ -32,4 +32,5 @@ dependencies {
     compile 'com.google.guava:guava:18.0'
     compile 'com.microsoft.azure:azure-mobile-services-android-sdk:2.0.3'
 	compile (group: 'com.microsoft.azure', name: 'azure-notifications-handler', version: '1.0.1', ext: 'jar')
+    compile 'net.hockeyapp.android:HockeySDK:3.7.0'
 }
