@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/azureuser/Desktop/A1mobile_Android/A1mobile/app/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/C:/A1/app/src/main/res/values-v14/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/C:/A1/app/build/intermediates/exploded-aar/net.hockeyapp.android/HockeySDK/3.7.0/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="HockeyApp.ButtonStyle" parent="android:Widget.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_background</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="HockeyApp.EditTextStyle" parent="android:Widget.EditText">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:textColorHint">@color/text_light</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="HockeyApp.SingleLineInputStyle" parent="HockeyApp.EditTextStyle">
+        <item name="android:singleLine">true</item>
     </style>
 </resources>

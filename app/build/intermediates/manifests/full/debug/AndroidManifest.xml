@@ -9,8 +9,15 @@
         android:targetSdkVersion="20" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+  	//your activity declarations and other stuff
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <application
+    <application>
+        //your activity declarations and other stuff
+        <meta-data
+            android:name="net.hockeyapp.android.appIdentifier"
+            android:value="fd7a39abc45c4131be72432123f42932" />
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -24,6 +31,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+        <activity android:name="net.hockeyapp.android.FeedbackActivity" />
+        <activity android:name="net.hockeyapp.android.PaintActivity" />
+        <activity android:name="net.hockeyapp.android.LoginActivity" />
+        <activity android:name="net.hockeyapp.android.ExpiryInfoActivity" />
     </application>
 
 </manifest>

@@ -1,22 +1,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.a1mobile"
     android:versionCode="1"
-    android:versionName="2.0" >
+    android:versionName="2.0">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+    <uses-sdk android:targetSdkVersion="18" android:minSdkVersion="8"
+        tools:overrideLibrary="net.hockeyapp.android"/>
 
     <uses-permission android:name="android.permission.INTERNET" />
 	
 	
   	//your activity declarations and other stuff
-  	<meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="${HOCKEYAPP_APP_ID}" />
+
 	
 
-    <application
+    <application>
         //your activity declarations and other stuff
-  	<meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="${HOCKEYAPP_APP_ID}" />
+  	<meta-data android:name="net.hockeyapp.android.appIdentifier" android:value="fd7a39abc45c4131be72432123f42932" />
 	
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"

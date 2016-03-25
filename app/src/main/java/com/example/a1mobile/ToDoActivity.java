@@ -1,6 +1,9 @@
 package com.example.a1mobile;
 
 import net.hockeyapp.android.CrashManager;
+import net.hockeyapp.android.UpdateManager;
+import net.hockeyapp.android.LoginManager;
+import net.hockeyapp.android.FeedbackManager;
 import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.List;

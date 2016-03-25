@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\azureuser\Desktop\A1mobile_Android\A1mobile\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\azureuser\Desktop\A1mobile_Android\A1mobile\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="3.7.0"><source path="C:\A1\app\build\intermediates\exploded-aar\net.hockeyapp.android\HockeySDK\3.7.0\assets"/></dataSet><dataSet config="main"><source path="C:\A1\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\A1\app\src\debug\assets"/></dataSet></merger>
